@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(f77360dc-097c-4071-8771-e97358f313e3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Numan\Desktop\TP_MR\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mIO error while decoding C:\Users\Numan\Desktop\TP_MR\src\main\scala\._TP_MR.scala with UTF-8: MALFORMED[1][0m
+[0m[[0m[31merror[0m] [0m[0mPlease try specifying another one using the -encoding option[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 6 févr. 2021 10:42:19[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

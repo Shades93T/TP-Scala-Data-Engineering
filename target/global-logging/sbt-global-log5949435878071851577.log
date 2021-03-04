@@ -1,0 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b54ed52f-5411-4e09-be91-e864c700002f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Numan\Desktop\TP_MR\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTP_MapReduce_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- giveMeHelloString function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lastA function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lastB function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nthA function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nthB function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverseA function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverseB function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- salarySum function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- addressOf function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- average function *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Infinity did not equal 4.5 (TP_MR.scala:67)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- monoid *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:347)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.$anonfun$getRatingsByDepartement$1(TP_MR.scala:200)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.map(List.scala:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.map(List.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.getRatingsByDepartement(TP_MR.scala:198)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.skiRatingAverage(TP_MR.scala:303)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MapReduce_Test.$anonfun$new$11(TP_MR.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 161 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 11[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	TP_MapReduce_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 8 févr. 2021 12:57:09[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

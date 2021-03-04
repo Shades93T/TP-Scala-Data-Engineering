@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Numan\Desktop\TP_MR\src\test\scala\TP_MR.scala:9:48: value get is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(TP_MR.lastA(List(1, 1, 2, 3, 5, 8)).get == 8)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Numan\Desktop\TP_MR\src\test\scala\TP_MR.scala:10:29: value isEmpty is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(TP_MR.lastA(Nil).isEmpty)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Numan\Desktop\TP_MR\src\test\scala\TP_MR.scala:14:48: value get is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(TP_MR.lastB(List(1, 1, 2, 3, 5, 8)).get == 8)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Numan\Desktop\TP_MR\src\test\scala\TP_MR.scala:15:29: value isEmpty is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(TP_MR.lastB(Nil).isEmpty)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
